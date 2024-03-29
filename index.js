@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 app.use(cors({
-  origin: "http://localhost:3000", 
+  origin: "https://onlineauctionsystem-di6g.onrender.com", 
   credentials: true 
 }));
 
