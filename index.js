@@ -5,7 +5,7 @@ import bodyParser from 'body-parser';
 import cookieParser from 'cookie-parser';
 import bcrypt from "bcrypt";
 import cors from "cors";
-import User from './Models/usersschema.js';
+import User from './usersschema.js';
 import {createToken , validateToken} from "./JWT.js";
 
 dotenv.config();
